@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+*{
+    font-size: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    
+    }
+header, nav, aside, section, article, .container{
+    padding: 2.5rem;
+}
+header{
+    background-color: yellow;
+    width:100%;
+}
+header>h1{
+    font-size: 3.5rem;
+}
+.container{
+    padding: 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+}
+nav{
+    background-color: green;
+    width: 25%;
+    float: left;
+}
+nav>h2{
+    font-size: 2rem;
+}
+nav>ul>li{
+    font-size: 1.5rem;
+}
+section{
+    width:50%;
+}
+section, section>header{
+    background-color: red;
+}
+section h3{
+    font-size: 2rem;
+}
+section p{
+    font-size: 1.5rem;
+}
+section>article{
+    background-color: greenyellow;
+}
+aside{
+    background-color: orange;
+    width: 25%;
+}
+footer{
+    background-color: blue;
+    padding: 2rem;
+}
+footer>h3{
+    font-size: 2rem;
+    color:#fafafa;
+}
